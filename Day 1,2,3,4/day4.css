@@ -1,0 +1,52 @@
+/* Universal selector */
+*{
+    margin:20px
+}
+
+
+
+/* Type selector */
+body {
+    color: cadetblue;
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*  class selector */
+/* can be given same name to two diffrent tags */
+.first {
+    color: black;
+}
+.large {
+    font-size: 30px;
+}
+
+
+/*  Id selector */
+/* can't be given same id name to diffrent tags */
+#ek_list {
+    background-color: lavender;
+}
+
+
+/*  attribute selector */
+input[type="text"]
+{
+    background-color: blue;
+    color: white;
+}
+input[type="email"]
+{
+    background-color: rebeccapurple;
+    color: white;
+}
+a[href="garvitagrawal2003@gmail.com"]
+{
+    color: red;
+    text-decoration: none;
+}
+
+/* pseudo selector */
+.first:hover{
+    color: red;
+}
