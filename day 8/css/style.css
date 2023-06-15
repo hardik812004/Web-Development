@@ -50,5 +50,8 @@ body{
 
 .menuItems{
     flex-grow: 2;
-    text-align: center;
+}
+
+.menuItem{
+    margin-left: 20px;
 }
